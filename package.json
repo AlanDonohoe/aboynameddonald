@@ -21,6 +21,25 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
+  "eslintConfig": {
+    "ecmaFeatures": {
+      "modules": true,
+      "spread": true,
+      "restParams": true
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-unused-vars": 2,
+        "no-undef": 2
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
+  },
   "scripts": {
     "dev:assets": "webpack --watch",
     "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
