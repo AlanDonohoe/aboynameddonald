@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// import { GetLorem } from './utils';\n// const loremEL = document.querySelector('.lorem');\n// GetLorem()\n//   .then(res => {\n//     const markup = res.reduce((acc, val) => (acc += `<p>${val}</p>`), '');\n//     loremEL.innerHTML = markup;\n//   }).catch(err => (loremEL.innerHTML = err));\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
+eval("\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
 
 /***/ }),
 
