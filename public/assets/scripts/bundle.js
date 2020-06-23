@@ -90,23 +90,10 @@
 /*!*****************************!*\
   !*** ./src/scripts/main.js ***!
   \*****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/scripts/utils.js\");\n\nvar loremEL = document.querySelector('.lorem');\nObject(_utils__WEBPACK_IMPORTED_MODULE_0__[\"GetLorem\"])().then(function (res) {\n  var markup = res.reduce(function (acc, val) {\n    return acc += \"<p>\".concat(val, \"</p>\");\n  }, '');\n  loremEL.innerHTML = markup;\n}).catch(function (err) {\n  return loremEL.innerHTML = err;\n});\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
-
-/***/ }),
-
-/***/ "./src/scripts/utils.js":
-/*!******************************!*\
-  !*** ./src/scripts/utils.js ***!
-  \******************************/
-/*! exports provided: GetLorem */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GetLorem\", function() { return GetLorem; });\nvar GetLorem = function GetLorem() {\n  var body = fetch('https://baconipsum.com/api/?type=all-meat&paras=3').then(function (res) {\n    return res.json();\n  });\n  return body;\n};\n\n//# sourceURL=webpack:///./src/scripts/utils.js?");
+eval("// import { GetLorem } from './utils';\n// const loremEL = document.querySelector('.lorem');\n// GetLorem()\n//   .then(res => {\n//     const markup = res.reduce((acc, val) => (acc += `<p>${val}</p>`), '');\n//     loremEL.innerHTML = markup;\n//   }).catch(err => (loremEL.innerHTML = err));\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
 
 /***/ }),
 
