@@ -3,6 +3,7 @@
 // Variables
 $montserrat: 'Montserrat', sans-serif;
 $nineteen-seventies-horror-yellow: #dbdb56;
+$grey-text: #867777;
 
 h1 {
   font-family: $montserrat;
@@ -20,9 +21,14 @@ h1 {
 }
 
 .text-credits {
-  color: #faf2f2;
+  color: rgb(190, 188, 188);//$grey-text;
   font-family: "Helvetica Neue";
   font-weight: 200;
   font-size: 1em;
   line-height: 1.5em;
+}
+
+.text-contact {
+  color: $grey-text;
+  font-family: "Helvetica Neue";
 }
