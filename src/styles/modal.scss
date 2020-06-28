@@ -11,7 +11,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  padding-left: 15px; // to centre video due to extra space on right with close btn.
+  padding-left: 35px; // to centre video due to extra space on right with close btn.
   transform: translate(-50%, -50%);
   height: 500px;
   max-height: 100%;
@@ -44,6 +44,6 @@
   z-index: 1000;
   background: rgba(0, 0, 0, 0.6);
   visibility: visible;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity linear 0.4s;
 }
