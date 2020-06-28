@@ -101,6 +101,7 @@ h1 {
 .modal {
   background: black;
   border-radius: 25px;
+  border: solid #610702;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -134,7 +135,7 @@ h1 {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.6);
   visibility: visible;
-  opacity: 1;
+  opacity: 0.5;
   transition: opacity linear 0.4s; }
 
 html {
