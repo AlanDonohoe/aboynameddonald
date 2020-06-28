@@ -93,10 +93,6 @@ h1 {
   font-size: 1em;
   line-height: 1.5em; }
 
-.text-contact {
-  color: #867777;
-  font-family: "Helvetica Neue"; }
-
 .closed {
   visibility: hidden !important;
   opacity: 0 !important;
