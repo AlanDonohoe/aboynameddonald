@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
+eval("var modal = document.querySelector('.modal');\nvar modalOverlay = document.querySelector('.modal-overlay');\nvar buttonClose = document.querySelector('.modal-close-button');\nvar buttonOpen = document.querySelector('.modal-open-button');\nvar videoPlayer = document.querySelector('.video-player');\n\nvar hideModalPauseVideo = function hideModalPauseVideo() {\n  modal.classList.toggle('closed');\n  modalOverlay.classList.toggle('closed');\n  videoPlayer.pause();\n};\n\nvar showModalPlayVideo = function showModalPlayVideo() {\n  modal.classList.toggle('closed');\n  modalOverlay.classList.toggle('closed');\n  videoPlayer.play();\n};\n\nbuttonClose.addEventListener('click', function () {\n  hideModalPauseVideo();\n});\nbuttonOpen.addEventListener('click', function () {\n  showModalPlayVideo();\n});\nmodalOverlay.addEventListener('click', function () {\n  hideModalPauseVideo();\n});\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
 
 /***/ }),
 
