@@ -214,3 +214,7 @@ body {
   .section-right {
     width: 65%; } }
 
+@media (orientation: landscape) and (min-width: 500px) and (max-width: 921px) {
+  .text-subtitle {
+    display: none; } }
+
