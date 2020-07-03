@@ -12,10 +12,11 @@
   top: 50%;
   left: 50%;
   padding-left: 35px; // to centre video due to extra space on right with close btn.
+  padding-bottom: 20px;
+  padding-top: 10px;
   transform: translate(-50%, -50%);
-  height: 500px;
   max-height: 100%;
-  width: 750px;
+  width: 90%;
   max-width: 100%;
   z-index: 1010;
   visibility: visible;
