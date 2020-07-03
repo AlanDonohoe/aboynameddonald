@@ -125,7 +125,8 @@ h1 {
 
 .modal video {
   width: 95%;
-  height: auto; }
+  height: auto;
+  margin-top: 15px; }
 
 .modal-overlay {
   position: fixed;
