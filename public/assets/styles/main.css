@@ -19,6 +19,14 @@ h1, h2, h3, h4, h5 {
   margin: 6px;
   padding: 0; }
 
+.no-js {
+  visibility: hidden;
+  opacity: 0; }
+
+.js {
+  visibility: visible;
+  opacity: 1; }
+
 .text-center {
   text-align: center; }
 
